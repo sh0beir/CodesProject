@@ -5,10 +5,13 @@ class DiscountCalculator {
     public function calculateDiscount($customerType, $amount) {
         switch ($customerType) {
             case 'regular':
+                // bunch of code and several operations
                 return $amount * 0.05;
             case 'premium':
+                // bunch of code and several operations
                 return $amount * 0.10;
             case 'vip':
+                // bunch of code and several operations
                 return $amount * 0.20;
             default:
                 throw new Exception("Invalid customer type.");

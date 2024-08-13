@@ -6,18 +6,21 @@ interface DiscountStrategy {
 
 class RegularCustomerDiscount implements DiscountStrategy {
     public function calculate($amount) {
+        // bunch of code and several operations
         return $amount * 0.05;
     }
 }
 
 class PremiumCustomerDiscount implements DiscountStrategy {
     public function calculate($amount) {
+        // bunch of code and several operations
         return $amount * 0.10;
     }
 }
 
 class VIPCustomerDiscount implements DiscountStrategy {
     public function calculate($amount) {
+        // bunch of code and several operations
         return $amount * 0.20;
     }
 }
